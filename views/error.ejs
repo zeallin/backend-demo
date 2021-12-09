@@ -1,0 +1,10 @@
+<%- include('partials/header') -%>
+
+<div class="w-2/3 bg-white p-4 rounded-lg text-left overflow-hidden">
+  Error Status: <%= locals.info.act %>
+  <code class="font-mono whitespace-pre-wrap text-xs ">
+    <%= locals.info.err %></h1>
+  </code>
+</div>
+
+<%- include('partials/footer') -%>
